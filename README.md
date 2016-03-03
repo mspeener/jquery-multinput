@@ -8,3 +8,4 @@ Usage: $(element).multinput() where element is a text input control.
 Demo coming soon.
 
 
+<script async src="//jsfiddle.net/3b6rL15a/embed/"></script>
