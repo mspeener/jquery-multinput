@@ -1,0 +1,70 @@
+.multinput-choice {
+    -moz-user-select: none;
+    background-clip: padding-box;
+    background-color: #e4e4e4;
+    background-image: linear-gradient(to bottom, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+    color: #333;
+    cursor: default;
+    line-height: 13px;
+    margin: 3px 0 3px 5px;
+    padding: 3px 5px 3px 18px;
+    position: relative;
+}
+
+.multinput-choice-close {
+    left: 3px;
+    background: rgba(0, 0, 0, 0) url("multinput.png") no-repeat scroll right top;
+    display: block;
+    font-size: 1px;
+    height: 13px;
+    outline: medium none;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    width: 12px;
+}
+
+.multinput-box {
+    width: 100%;
+}
+
+.multinput-list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    /* border: 1px solid #7F9DB9; */
+    border: 1px solid #e5e5e5;
+    /* width: 100%; */
+    width:inherit;
+    display: inline-block; 
+    overflow: hidden;
+}
+.multinput-list li {
+    float: left;
+}
+.multinput-list li input {
+    border: none 0px;
+    width: 100%;
+    padding-left: 2px;
+}
+.multinput-list div.item {
+    border: 1px solid #ccc;
+    background-color: #ececec;
+    margin: 2px;
+    padding: 0px 0px 0px 4px;
+}
+.multinput-list div.item span {
+    display: inline-block;
+}
+.multinput-list div.item a {
+    background: transparent url("multinput.png") no-repeat;
+    font-size: 10px;
+    margin-left: 3px;
+    padding: 4px 6px 1px 8px;
+    text-decoration: none;
+    color: red;
+}
