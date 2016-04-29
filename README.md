@@ -1,5 +1,5 @@
 # jquery-multinput
-A jQuery plugin that creates a multiple input texbox. 
+A jQuery plugin that creates a multiple input text control. 
 
 Inspired by Select2 and http://www.codeproject.com/Tips/98818/A-multiple-input-control-using-JQuery
 
